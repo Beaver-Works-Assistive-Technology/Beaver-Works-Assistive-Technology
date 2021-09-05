@@ -64,26 +64,42 @@
 										<p>Because I have a background in CS, I choose to help my grandma by making software that would Detect Emotion from Speech using Machine Learning. My initial brainstorm, is that I would use a FeedForward ANN (Artificial Neural Network), where I would train my model using a big professional dataset, consulting of 24 professional actors speaking with different emotion. After that, I plan to train my model again using a smaller dataset that deals with people diagnosed with ASD.</p>
 
 										<header>
-											<h2>Initial Prototype</h2>
+											<h2>Final Prototype</h2>
 										</header>
-										<p>Coming soon!</p>
+										
+										<header>
+											<h3>Build Description</h3>
+										</header>
+										<p>When building my software, I had two main iterations. The first iteration consisted of my training my model of a professional dataset (RAVDESS). The second iteration of my model consisted of me training my model off of my voice, and then taking in user input through the microphone.</p>
+										
+										<p><span class="image fit"><img src="software_flow_diagram.png" alt="flow diagram showing components of the software" /></span></p>
 
+										<b>Test Plan</b>
+										<p>To test my first iteration of my model (trained off of dataset), I wanted to give my model 10% of the dataset, to test to see if it works. So I ended up giving my model a bunch of wav files, and then ran it to see what it would output.</p>
+										<p>For my second iteration of my model, I planned on talking into my microphone,  and saying the same sentence with different emotions each time. If it was able to predict that emotion that I tried to convey, I knew that my model was working off microphone input.</p>
+										
+										<p><span class="image fit"><img src="model_outputs.png" alt="a list of the emotions associated with the dataset" /></span></p>
+										
+										<b>Results</b>
+										<p>My model ended up with an accuracy of 81.54%, and was able to correctly predict the emotions in user sentences taken from microphone input, and it could also predict emotions from wav files.</p>
+										
 										<header>
-											<h2>Second Prototype</h2>
+											<h3>Future Improvements</h3>
 										</header>
-										<p>Coming soon!</p>										
+										<p>The main thing I want to do in the future is find more data. The dataset I used was pretty small, and only contained 691 files. So I was forced to use a subset of the emotions: [calm, happy, surprised, fearful], to make sure that my model wouldn’t have a low accuracy if I implemented all 8 emotions.</p>
+										<p>Another idea that is really cool and interesting is putting my software into an an amazon echo dot. In India, the students have Alexa’s in their room, so it would be a lot more convenient to have Alexa be able to predict emotion off of microphone input, instead of having to sit infant of a computer screen and having to keep talking to your computer screen.</p>
+										
 										<header>
-											<h2>Third Prototype</h2>
+											<h3>Scalability</h3>
 										</header>
-										<p>Coming soon!</p>
+										<p>Another idea that is really cool and interesting is putting my software into an an amazon echo dot. In India, the students have Alexa’s in their room, so it would be a lot more convenient to have Alexa be able to predict emotion off of microphone input, instead of having to sit infant of a computer screen and having to keep talking to your computer screen.</p>
+										
 										<header>
-											<h2>Nth Prototype</h2>
+											<h3>Design Process Reflection</h3>
 										</header>
-										<p>Coming soon!</p>
-										<!-- <ul class="actions">
-											<li><a href="#" class="button big">STL files (missing)</a></li>
-											<li><a href="#" class="button big">Lesson Plan (missing)</a></li>
-										</ul> -->
+										<p>Taking this course, and looking back on what I was able to achieve. I felt that I had done a pretty good job with my design process. Although it was hard to communicate with my codesigner, I was able to overcome that by having people I know test my software.</p>
+										
+										
 
 									</div>
 								</section>
